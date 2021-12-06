@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nppcrypt_preferences version="1016">
+ <files monitor="true" askonsave="true" extension="nppcrypt" />
+ <current_options>
+  <encryption advanced="false">
+   <basic cipher="rijndael" key-length="32" mode="gcm" aad="true" iv="random" />
+   <encoding enc="base64" eol="windows" linebreaks="true" line-length="128" uppercase="true" />
+   <key saltbytes="16" algorithm="scrypt" N="16384" r="8" p="1" />
+   <hmac enabled="false" hash="md5" digest-length="16" keypreset-id="-1" />
+  </encryption>
+  <hash algorithm="md5" encoding="base16" usekey="false" />
+  <random restriction="alphanum" encoding ="ascii" length="16" />
+  <convert source-enc="ascii" target-enc="base64" eol="windows" linelength="64" linebreaks="true" uppercase="true" />
+ </current_options>
+ <default_encryption>
+  <basic cipher="rijndael" key-length="32" mode="gcm" aad="true" iv="random" />
+  <encoding enc="base64" eol="windows" linebreaks="true" line-length="128" uppercase="true" />
+  <key saltbytes="16" algorithm="scrypt" N="16384" r="8" p="1" />
+ </default_encryption>
+ <base32 alphabet="abcdefghijkmnpqrstuvwxyz23456789" />
+ <base64 padding="=" alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/" />
+ <key_presets>
+ </key_presets>
+</nppcrypt_preferences>
